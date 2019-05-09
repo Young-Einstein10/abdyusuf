@@ -1,0 +1,125 @@
+/**NAvigation**/
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.social-icons .btn{
+    padding: 0;
+}
+
+
+/**HomeSection**/
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../img/devon-stank-squarespace-developer.jpg');
+    background-attachment: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#home h2{
+    font-size: 47px;
+    font-weight: 500;
+}
+
+/***About Section***/
+.single-progress-item{
+    margin-bottom: 35px;
+}
+
+.progress-bar-style{
+    display: block;
+    height: 4px;
+    position: relative;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.bar-inner{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 25px;
+    background: #333;
+}
+
+.bar-inner-span{
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+    top: -18px;
+    font-size: 10px;
+    width: 35px;
+    height: 35px;
+    padding-top: 11px;
+    letter-spacing: 0px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 10px rgba(45, 45, 45, 0.2);
+    box-shadow: 0 0 10px rgba(45, 45, 45, 0.2);
+}
+
+
+#about .col-md-7{
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: light;
+}
+
+/**Resume**/
+section#resume{
+    padding: 7rem 0;
+}
+
+#resume{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../img/0_Nv1sgovc6sNy89N_.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(1);
+}
+
+/**Contact section**/
+#contact{
+    background: #e6e6e6;
+}
+
+#contact h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+
+.form-control{
+    width: 60%;
+}
+
+
+/**Footer Section**/
+footer{
+    background: #26262a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+footer .container .row .col-12 .name{
+    margin-bottom: 5px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .social-icons{
+        display: none;
+    }
+}
+
+
